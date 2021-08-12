@@ -1,0 +1,33 @@
+.header{
+    background: blue;
+    height: 10em;
+    }
+.image-presentation{
+    background: blueviolet;
+    height: 10em;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+.flex-container-body-down{
+    background: cyan;
+    width: 100%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    @media screen and (max-width: 767px){
+        padding-top: 1em;
+        flex-direction: column;
+    }
+    display: flex;
+    
+}
+.flex-container-body-down >div{
+        @media screen and (max-width: 767px){
+            width: auto;
+            height: 2em;
+            border: 2px solid pink;
+            border-radius: 20px;
+            margin: 1em;
+        }
+}
