@@ -17,17 +17,25 @@
     flex-direction: column;
     align-items: space-between; 
     align-items: center ;
+    
 
     @media screen and (max-width: 767px){
         width: 100%;
         padding-top: 1em;
         flex-direction: column;
         align-items: stretch;
-       border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+        
     }
     
 }
+.subtittle{
+    @media screen and (max-width: 767px){
+        padding-left: 1.5em;
+    }
+}
+
 .body-down{
     
    width: 100%;
@@ -37,6 +45,7 @@
     @media screen and (max-width: 767px){
    width: auto;
     flex-direction: column;
+
     }
 }
 .body-down >div{
@@ -59,11 +68,15 @@
         @media screen and (max-width: 767px){
             width: auto;
             height: 2em;
-           
-            border-radius: 20px;
+          
             
         }
    
+}
+.progress {
+
+   
+
 }
 .boutoncommand{
     display: flex;
