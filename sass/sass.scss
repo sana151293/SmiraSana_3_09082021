@@ -138,7 +138,11 @@
         border-top-right-radius: 10%; 
       
     }
-  
+    .restaurant-name{
+        display: flex;
+        justify-content: space-between;
+    }
+   
     .flex-container-body-down>div
     {
         width: 40%;
