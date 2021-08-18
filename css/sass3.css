@@ -79,8 +79,6 @@
   display: flex;
   align-content: space-between;
   width: auto;
-  justify-content: center;
-  align-items: center;
   height: 5em;
   background-color: white;
   border: 2px solid #f3f3f3;
@@ -117,4 +115,4 @@ footer {
   background-color: grey;
 }
 
-/*# sourceMappingURL=sass1.css.map */
+/*# sourceMappingURL=sass3.css.map */
