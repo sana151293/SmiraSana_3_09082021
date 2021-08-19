@@ -108,7 +108,10 @@
         padding-bottom: 1em;
         padding-right: 2em;
         box-shadow: 2px 2px 10px rgba(240, 239, 239, 0.664);
-
+        &:hover{
+            background-color: violet;
+            cursor: pointer;
+        }
     }
   
     .circle /* bulle bleu autour des icones*/{
@@ -150,6 +153,14 @@
     .restaurant-name{
         display: flex;
         justify-content: space-between;
+        
+    }
+    .far {
+        
+        &:hover{
+            background-color: violet;
+            cursor: pointer;
+        }
     }
    
     .flex-container-body-down>div

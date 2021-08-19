@@ -114,6 +114,10 @@
   padding-right: 2em;
   box-shadow: 2px 2px 10px rgba(240, 239, 239, 0.664);
 }
+.body-up-child:hover {
+  background-color: violet;
+  cursor: pointer;
+}
 
 .circle {
   display: block;
@@ -155,6 +159,11 @@
 .restaurant-name {
   display: flex;
   justify-content: space-between;
+}
+
+.far:hover {
+  background-color: violet;
+  cursor: pointer;
 }
 
 .flex-container-body-down > div {
