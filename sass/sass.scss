@@ -175,8 +175,8 @@
 
         
     }
-    .btn1 {
-          
+    button {
+         
            border: none;
             cursor: pointer;
               font-size: 2em;
@@ -184,13 +184,14 @@
               transition: background-color 1s;
               background: none;
               &:hover{
-                color:red;
-               background: none;
-                border: none;
+                background-color:red;
+               border: none; 
                 
               }
+
  
     }
+   
    
     .flex-container-body-down>div
     {
