@@ -75,13 +75,32 @@
 }
 .body-down >div{
     width: 30%;
-   
     display: flex;
     flex-direction: column;
+    animation-delay: 5s;
+    animation: fadein 5s;
+    scroll-behavior: smooth;
+    
     @media screen and (max-width: 767px){
         width: auto;
     }
     
+}
+@keyframes fadein {
+    0%{
+        transform: scale(1, 0);
+        height: 0%;
+        opacity:0;
+        transform-origin: top;
+    }
+    100% {
+        transform: scale(1, 1);
+        height: 100%;
+        opacity:1;
+       
+        
+    }
+
 }
 .body-down-child {
     display: flex;
@@ -106,11 +125,7 @@
         }
    
 }
-.progress {
 
-   
-
-}
 .btn{
    
     border-radius: 20px;
