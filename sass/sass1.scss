@@ -199,18 +199,27 @@
 }
 
 .fa-check-circle{
-    
+    position: relative;
     animation: spin 4s linear;
+    color: white;
+    margin-left: 5em;
+    opacity: 0;
+  
+    &:hover {
+        opacity: 1;
+    }
+       
     
  
 }
 .hover1{
-    
+    position: absolute;
     height: 100%;
     background-color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
+    
    
     
    
