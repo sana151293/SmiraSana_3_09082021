@@ -89,6 +89,96 @@
   }
 }
 
+.child-one {
+  animation-delay: 5s;
+  animation: fadeone 2s linear;
+  scroll-behavior: smooth;
+}
+
+.child-two {
+  animation-delay: 5s;
+  animation: fadetwo 2s linear;
+  scroll-behavior: smooth;
+}
+
+.child-three {
+  animation-delay: 5s;
+  animation: fadethree 2s linear;
+  scroll-behavior: smooth;
+}
+
+@keyframes fadethree {
+  /*  0%{
+        transform: scaleY(2);
+        transform-origin: bottom;
+        animation-direction: normal;
+   }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: bottom;
+
+    }
+    */
+  0% {
+    margin-top: 3em;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadetwo {
+  /*  0%{
+        transform: scaleY(2);
+        transform-origin: bottom;
+        animation-direction: normal;
+   }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: bottom;
+
+    }
+    */
+  0% {
+    margin-top: 3em;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeone {
+  /*  0%{
+        transform: scaleY(2);
+        transform-origin: bottom;
+        animation-direction: normal;
+   }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: bottom;
+
+    }
+    */
+  0% {
+    margin-top: 3em;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .body-down-child {
   display: flex;
   align-content: space-between;

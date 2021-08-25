@@ -226,19 +226,23 @@ button:hover {
   z-index: 1000;
   background-color: white;
   overflow: hidden;
+  align-self: auto;
+  transform: scaleX(0);
+  animation: load 3s linear;
 }
 
 .loader {
   width: 100px;
   height: 100px;
   border: 20px solid #CCCCCC;
-  border-top: 20px solid #1177FF;
+  border-top: 20px solid violet;
   border-radius: 50%;
-  animation: spin 5s linear;
+  animation: spin 3s linear;
   position: absolute;
   top: 50%;
   left: 45%;
-  background-color: black;
+  background-color: white;
+  transform: scaleX(0);
 }
 
 @keyframes spin {
@@ -248,6 +252,17 @@ button:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.body-down {
+  transform-origin: top;
 }
 
 /*# sourceMappingURL=sass.css.map */
