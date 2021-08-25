@@ -179,7 +179,32 @@
     opacity: 1;
   }
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fa-check-circle {
+  animation: spin 4s linear;
+}
+
+.hover1 {
+  height: 100%;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.hover1:hover {
+  border-right: 5em solid blue;
+}
+
 .body-down-child {
+  cursor: pointer;
+  position: relative;
   display: flex;
   align-content: space-between;
   width: auto;
@@ -194,6 +219,9 @@
   margin: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   .body-down-child {
