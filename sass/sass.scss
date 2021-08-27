@@ -176,27 +176,35 @@
 
         
     }
-    button {
-         
-           border: none;
-            cursor: pointer;
-              font-size: 2em;
-              color:black;
-              transition: background-color 1s;
-              background: none;
-            //   &:hover{
-            //     background-color:red;
-            //    border: none; 
+    .btn1  {
+       
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: blue;
+    background: none;
+    
+    &:hover {
+    color:red;
+     border: none; 
                 
-            //   }
+    }
 
  
     }
-   .fill-icon{
-       &:hover{
-           fill:green
-       }
-   }
+    .fill-icon{
+        position: absolute;
+        :hover{
+            display: block;
+        }
+    }
+    .icon{
+        opacity: 0;
+        &:hover{
+            opacity: 1;
+        }
+    }
+  
    
     .flex-container-body-down>div
     {

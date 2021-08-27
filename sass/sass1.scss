@@ -213,10 +213,11 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     position: absolute;
+    width: 100%;
     
-    
+  
 }   
 
 
@@ -229,15 +230,21 @@
     :hover > & {
     height: 100%;
     background-color: blue;
-    width: 100%;
+    width: 20%;
     transition-duration: 5s;
     transition-delay: 0s;
         
       }
 
     }
-    .center-name{
-        padding:3em;
+   
+    .ellipsis{
+        
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+       
+        
     }
 
     
@@ -261,9 +268,8 @@
      margin: 1em;
      padding-top: 0.5em;
      padding-bottom: 0.5em;
-     text-overflow: ellipsis;
-     white-space: nowrap;
      overflow: hidden;
+     
      
    
         @media screen and (max-width: 767px){

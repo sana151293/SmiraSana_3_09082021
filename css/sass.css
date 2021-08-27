@@ -176,17 +176,30 @@
   justify-content: space-between;
 }
 
-button {
+.btn1 {
   border: none;
   cursor: pointer;
   font-size: 2em;
-  color: black;
-  transition: background-color 1s;
+  color: blue;
   background: none;
 }
+.btn1:hover {
+  color: red;
+  border: none;
+}
 
-.fill-icon:hover {
-  fill: green;
+.fill-icon {
+  position: absolute;
+}
+.fill-icon :hover {
+  display: block;
+}
+
+.icon {
+  opacity: 0;
+}
+.icon:hover {
+  opacity: 1;
 }
 
 .flex-container-body-down > div {
