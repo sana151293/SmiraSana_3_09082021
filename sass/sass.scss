@@ -1,4 +1,4 @@
-    
+
     .header{
         background-color: white;
         display: flex;
@@ -157,6 +157,7 @@
         display: flex;
     }
     
+    
  
   
     .new-icone{
@@ -183,15 +184,19 @@
               color:black;
               transition: background-color 1s;
               background: none;
-              &:hover{
-                background-color:red;
-               border: none; 
+            //   &:hover{
+            //     background-color:red;
+            //    border: none; 
                 
-              }
+            //   }
 
  
     }
-   
+   .fill-icon{
+       &:hover{
+           fill:green
+       }
+   }
    
     .flex-container-body-down>div
     {
@@ -260,7 +265,5 @@
     100% { transform: rotate(0deg);}
   }
 
-  .body-down {
-      transform-origin: top;
-  }
+  
   

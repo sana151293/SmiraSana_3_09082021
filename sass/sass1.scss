@@ -199,38 +199,49 @@
 }
 
 .fa-check-circle{
-    position: relative;
-    animation: spin 4s linear;
-    color: white;
-    margin-left: 5em;
-    opacity: 0;
-  
-    &:hover {
-        opacity: 1;
-    }
-       
     
- 
+    color:white;
+    margin: 2em;
+    animation: spin 4s linear;
+    
+
 }
 .hover1{
-    position: absolute;
+    
     height: 100%;
     background-color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    position: absolute;
     
-   
     
-   
-    
-     
-    &:hover { 
-        
-        border-right: 5em solid blue;
-    }
-}
+}   
 
+
+.hover2{
+        
+    transition: width 2s linear ;
+        width: 0%;
+        
+       
+    :hover > & {
+    height: 100%;
+    background-color: blue;
+    width: 100%;
+    transition-duration: 5s;
+    transition-delay: 0s;
+        
+      }
+
+    }
+    .center-name{
+        padding:3em;
+    }
+
+    
+    
     
 
 .body-down-child {
@@ -238,8 +249,8 @@
    position: relative;
     display: flex;
     align-content: space-between;
+    justify-content: flex-end;
     width: auto;
-    justify-content: center;
     align-items: center;
     height: 5em;
     background-color: white;
@@ -253,6 +264,7 @@
      text-overflow: ellipsis;
      white-space: nowrap;
      overflow: hidden;
+     
    
         @media screen and (max-width: 767px){
             width: auto;
