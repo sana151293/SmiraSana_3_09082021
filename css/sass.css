@@ -31,13 +31,16 @@
   box-shadow: 2px 2px 10px rgba(214, 208, 208, 0.959);
 }
 .btn.btn-search {
+  text-decoration: none;
   border-radius: 20px;
-  border: 2px solid #ff79da;
-  background: #ff79da;
+  background-image: linear-gradient(#ec0cec, #FF79DA);
   border-radius: 20%;
   padding: 0.5em;
   display: flex;
   flex-direction: row;
+}
+.btn.btn-search:hover {
+  opacity: 0.5;
 }
 .btn.btn-font {
   color: white;
@@ -49,6 +52,30 @@
   border: none;
   cursor: pointer;
   font-size: 1.5em;
+}
+.btn-like .fill-icon {
+  position: absolute;
+  background: none;
+  color: black;
+  opacity: 1;
+}
+.btn-like .fill-icon:active {
+  opacity: 0;
+}
+.btn-like .icon {
+  position: relative;
+  border: none;
+  opacity: 0;
+}
+.btn-like .icon:active {
+  transition: all 3s linear 0s;
+  background: white;
+  opacity: 1;
+  background-image: linear-gradient(#ec0cec, #FF79DA);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 767px) {
@@ -187,27 +214,6 @@
 .restaurant-name {
   display: flex;
   justify-content: space-between;
-}
-
-.fill-icon {
-  position: absolute;
-  background: none;
-}
-.fill-icon:hover {
-  display: block;
-}
-
-.icon {
-  border: none;
-  opacity: 0;
-  background-image: linear-gradient(#ec0cec, #FF79DA);
-}
-.icon:hover {
-  background: white;
-  opacity: 1;
-  background-image: linear-gradient(#ec0cec, #FF79DA);
-  background-clip: content-box;
-  color: transparent;
 }
 
 .flex-container-body-down > div {
