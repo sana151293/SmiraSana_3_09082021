@@ -225,6 +225,10 @@
   white-space: nowrap;
 }
 
+.space {
+  margin-top: 1.5em;
+}
+
 .body-down-child {
   cursor: pointer;
   position: relative;
