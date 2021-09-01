@@ -9,6 +9,9 @@
     }
 
 }
+.body{
+    width: 100%;
+}
 .ohmyfood{
     width: 40%;
     padding : 1em;
@@ -54,8 +57,14 @@
     }
 }
 .tittle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     @media screen and (max-width: 767px){
         padding-left: 1.5em;
+        padding-right: 1em;
     }
 }
 
@@ -230,7 +239,7 @@
        
     :hover > & {
     height: 100%;
-    background-color: blue;
+    background-color: #99E2D0;
     width: 20%;
     transition-duration: 1s;
     transition-delay: 0s;
@@ -279,12 +288,13 @@
    
         @media screen and (max-width: 767px){
             width: auto;
-            height: 2em;
+            height: 3em;
           
             
         }
    
 }
+
 
 .btn-order{
    
@@ -300,13 +310,23 @@
     justify-content: center;
     align-items: center;
     color: white ;
+    @media screen and (max-width: 767px){
+        margin-left: 5.5em;
+        margin-bottom: 3em;
+        margin-top: 2em;
+      }
+
 }
 footer{
     display: flex;
         justify-content: space-around;
         background-color: gray;
         color: white;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
         @media screen and (max-width: 767px){
           flex-direction: column;
+          padding-left: 1em;
         }
 }
