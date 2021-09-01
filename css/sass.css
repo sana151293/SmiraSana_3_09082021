@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.body {
+  width: 100%;
+}
+
 .ohmyfood {
   width: 40%;
   padding: 1em;
@@ -20,6 +24,7 @@
   background-color: #dad2d2;
   display: flex;
   padding: 0.5em;
+  box-shadow: inset 0px 3px 5px rgba(173, 168, 168, 0.664);
 }
 
 .bold {
@@ -28,7 +33,7 @@
 
 .btn {
   cursor: pointer;
-  box-shadow: 2px 2px 10px rgba(214, 208, 208, 0.959);
+  box-shadow: 2px 3px 10px rgba(214, 208, 208, 0.959);
 }
 .btn.btn-search {
   text-decoration: none;
@@ -195,10 +200,7 @@
 
 .body-down-child > div {
   display: flex;
-}
-
-#dish-name {
-  display: inline-flex;
+  flex-direction: column;
 }
 
 .float-right {
@@ -219,6 +221,11 @@
 .restaurant-name {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.name-restaurant-padding {
+  padding: 0.5em;
 }
 
 .flex-container-body-down > div {
@@ -229,7 +236,6 @@
   background-color: white;
   box-shadow: 2px 2px 10px #423b3b;
   margin-bottom: 2em;
-  padding-bottom: 2em;
 }
 @media screen and (max-width: 767px) {
   .flex-container-body-down > div {
