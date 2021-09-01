@@ -1,0 +1,24 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/:./css/",
+    "sass1": "sass --watch ./sass/:./css/",
+    "sass2": "sass --watch ./sass/:./css/",
+    "sass3": "sass --watch ./sass/:./css/",
+    "sass4": "sass --watch ./sass/:./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sana151293/SmiraSana_3_09082021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sana151293/SmiraSana_3_09082021/issues"
+  },
+  "homepage": "https://github.com/sana151293/SmiraSana_3_09082021#readme"
+}
