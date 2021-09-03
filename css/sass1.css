@@ -54,6 +54,7 @@
 
 .subtittle {
   text-decoration: 3px underline #99E2D0;
+  padding-top: 1.5em;
 }
 @media screen and (max-width: 767px) {
   .subtittle {
@@ -221,6 +222,7 @@
   display: flex;
   flex-direction: column;
   width: 90%;
+  padding-left: 1em;
 }
 
 .hover2 {
@@ -262,7 +264,6 @@
   align-items: center;
   height: 5em;
   background-color: white;
-  border: 2px solid #f3f3f3;
   box-shadow: 1px 1px 10px #ada9a9;
   border-radius: 15px;
   margin: 0.5em;
@@ -307,7 +308,7 @@
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: gray;
+  background-color: #2c2b2b;
   color: white;
   width: 100%;
   padding-top: 1em;
