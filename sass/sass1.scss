@@ -224,20 +224,31 @@
     position: absolute;
     width: 100%;
     
-  
+    >div {
+        display: inline-flex;
+        
+        
+    }
 }   
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
 
 
 .hover2{
         
     transition: width 2s linear ;
     width: 0%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
         
        
     :hover > & {
+    display: flex;
     height: 100%;
     background-color: #99E2D0;
     width: 20%;
@@ -248,16 +259,17 @@
 
     }
    
-    .ellipsis{
-       
+.ellipsis{
+        
+        width: 80%;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-         
-        
+      display: inline-block;
     }
-    .space{
+.price{
      margin-top: 1.5em;
+     width: 10%;
      
     }
 
