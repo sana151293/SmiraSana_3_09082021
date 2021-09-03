@@ -24,7 +24,9 @@
   background-color: #dad2d2;
   display: flex;
   padding: 0.5em;
+  justify-content: center;
   box-shadow: inset 0px 3px 5px rgba(173, 168, 168, 0.664);
+  width: 100%;
 }
 
 .bold {
@@ -35,6 +37,10 @@
   cursor: pointer;
   box-shadow: 2px 3px 10px rgba(214, 208, 208, 0.959);
 }
+.btn:hover {
+  box-shadow: 4px 4px 10px rgba(148, 145, 145, 0.959);
+  opacity: 0.5;
+}
 .btn.btn-search {
   text-decoration: none;
   border-radius: 20px;
@@ -43,9 +49,6 @@
   padding: 0.5em;
   display: flex;
   flex-direction: row;
-}
-.btn.btn-search:hover {
-  opacity: 0.5;
 }
 .btn.btn-font {
   color: white;
@@ -94,8 +97,9 @@
 
 .head-down {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
 }
 @media screen and (max-width: 767px) {
@@ -158,7 +162,7 @@
   box-shadow: 2px 2px 10px rgba(240, 239, 239, 0.664);
 }
 .body-up-child:hover {
-  background-color: #ac8ad4;
+  background-color: #dcbeff;
   cursor: pointer;
 }
 
@@ -173,6 +177,17 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.menu-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.icon-color {
+  color: #9356DC;
 }
 
 .flex-container-body-down {
@@ -233,7 +248,6 @@
 .flex-container-body-down > div {
   width: 40%;
   margin: 1em;
-  border: 2px solid white;
   border-radius: 20px;
   background-color: white;
   box-shadow: 2px 2px 10px #423b3b;

@@ -322,6 +322,10 @@
     justify-content: center;
     align-items: center;
     color: white ;
+    &:hover{
+        opacity: 0.7;
+        box-shadow: 4px 4px 10px rgba(165, 162, 162, 0.959);
+    }
     @media screen and (max-width: 767px){
         margin-left: 5.5em;
         margin-bottom: 3em;
