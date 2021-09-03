@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sana151293/SmiraSana_3_09082021/issues"
   },
-  "homepage": "https://github.com/sana151293/SmiraSana_3_09082021#readme"
+  "homepage": "https://github.com/sana151293/SmiraSana_3_09082021#readme",
+  "dependencies": {
+    "sass": "^1.38.2"
+  }
 }
