@@ -1,11 +1,20 @@
+@font-face {
+  font-family: "shrikhan";
+  src: url("Shrikhand-Regular.otf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("RobotoCondensed-Regular.ttf");
+}
 .header {
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
-.body {
+body {
   width: 100%;
+  font-family: "Roboto", Arial, serif;
 }
 
 .ohmyfood {
@@ -202,8 +211,9 @@
     flex-direction: column;
   }
 }
-.flex-container-body-down h2 {
+.flex-container-body-down .h2 {
   width: 100%;
+  font-family: "shrikhand", Arial, sans-serif;
 }
 
 .body-down-child img {
