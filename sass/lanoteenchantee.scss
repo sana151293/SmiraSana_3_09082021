@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'shrikhan' ;
     src: url('Shrikhand-Regular.otf');
-}
+} 
 @font-face {
     font-family: 'Roboto' ;
     src: url('RobotoCondensed-Regular.ttf');
@@ -15,7 +15,6 @@
         justify-content: space-around;
         align-items: center;
     }
-
 }
 .body{
     width: 100%;
@@ -86,7 +85,6 @@ h2{
 }
 
 .body-down{
-    
    width: 100%;
      display: flex;
      flex-wrap: wrap;
