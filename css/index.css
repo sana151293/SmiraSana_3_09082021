@@ -30,12 +30,11 @@ body {
 }
 
 .position {
-  background-color: #dad2d2;
+  background-color: #e0dddd;
   display: flex;
   padding: 0.5em;
   justify-content: center;
   box-shadow: inset 0px 3px 5px rgba(173, 168, 168, 0.664);
-  width: 100%;
 }
 
 .bold {
@@ -185,7 +184,10 @@ body {
 h2 {
   width: 100%;
   font-family: "shrikhand", Arial, sans-serif;
-  padding-left: 1em;
+}
+
+.marginh2 {
+  margin-left: 1em;
 }
 
 .flex-container-body-down {
@@ -194,7 +196,6 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: center;
 }
 .flex-container-body-down > div {
   margin: 1em;

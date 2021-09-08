@@ -26,12 +26,12 @@ body{
         border: hidden;
 }
 .position {
-       background-color:rgb(218, 210, 210);
+       background-color:rgb(224, 221, 221);
         display: flex; 
         padding:0.5em;
        justify-content: center;
         box-shadow: inset 0px 3px 5px rgba(173, 168, 168, 0.664);
-            width: 100%;
+        
 } 
 .bold {
         font-weight: bolder;
@@ -170,7 +170,9 @@ body{
 h2 {
        width: 100%;
        font-family: 'shrikhand', Arial, sans-serif ;
-       padding-left: 1em;
+}
+.marginh2{
+    margin-left: 1em;
 }
 .flex-container-body-down{
         background-color: rgb(243, 243, 243);
@@ -178,7 +180,7 @@ h2 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-content: center;
+        
        
     >div{
         margin: 1em;
