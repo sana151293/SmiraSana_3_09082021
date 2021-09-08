@@ -16,9 +16,13 @@
         align-items: center;
     }
 }
+body{
+    margin: 0;
+}
 .body{
     width: 100%;
     font-family: "Roboto", Arial, serif;
+    
     
 }
 .ohmyfood{
@@ -28,11 +32,12 @@
 .restaurant{
     height: 15em;
     width: 100%;
+    object-fit: cover;
    
 }
 .restaurant img{
     position: absolute;
-    object-fit: cover; 
+   
 }
 .image-presentation{
     height: 12em;
