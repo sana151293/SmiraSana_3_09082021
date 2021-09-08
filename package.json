@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./sass/:./css/",
-    "sass1": "sass --watch ./sass/:./css/",
-    "sass2": "sass --watch ./sass/:./css/",
-    "sass3": "sass --watch ./sass/:./css/",
-    "sass4": "sass --watch ./sass/:./css/"
+    "sass": "sass --watch ./sass/:./css/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +18,6 @@
   },
   "homepage": "https://github.com/sana151293/SmiraSana_3_09082021#readme",
   "dependencies": {
-    "sass": "^1.38.2"
+    "sass": "^1.39.0"
   }
 }
