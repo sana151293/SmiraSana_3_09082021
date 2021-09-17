@@ -16,12 +16,10 @@
   justify-content: space-around;
   align-items: center;
 }
-
 .body {
   width: 100%;
   font-family: "Roboto", Arial, serif;
 }
-
 .ohmyfood {
   width: 40%;
   padding: 1em;
@@ -46,7 +44,7 @@
   background: #f8f6f6;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  
   align-items: center;
   position: relative;
 }

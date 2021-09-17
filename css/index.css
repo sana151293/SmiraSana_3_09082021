@@ -183,12 +183,14 @@ body {
 }
 
 h2 {
+  margin-left: 1em;
   width: 100%;
   font-family: "shrikhand", Arial, sans-serif;
 }
-
-.marginh2 {
-  margin-left: 1em;
+@media screen and (max-width: 767px) {
+  h2 {
+    width: auto;
+  }
 }
 
 .flex-container-body-down {
@@ -233,8 +235,9 @@ h2 {
   background: #99E2D0;
   position: absolute;
   margin: 1em;
-  padding: 0.2em;
-  color: green;
+  padding: 0.6em;
+  color: #508f7f;
+  font-weight: bold;
 }
 
 .restaurant-name {
@@ -257,7 +260,7 @@ h2 {
 }
 @media screen and (max-width: 767px) {
   .flex-container-body-down > div {
-    width: auto;
+    width: 90%;
   }
 }
 
