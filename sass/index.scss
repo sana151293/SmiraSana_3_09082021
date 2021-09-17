@@ -60,35 +60,27 @@ body{
 } 
 .btn-like {
         
-            border: none;
+        color: black;
             cursor: pointer;
             font-size: 1.5em;
-            .fill-icon{
-                position: absolute;
-                background: none;
-                color: black;
+               :hover{
+                       
+                animation: fill 0.3s ease-in-out;
+                display: inline-block;
                 opacity: 1;
-                &:active{
-                    color: white;
-                }
-                
-            }
-        .icon{
-            position: relative;
-                border: none;
-                opacity: 0;
-               
-                &:active{
-                    transition: all 3s linear 0s;
-                    background:white;
-                    opacity: 1;
-                  background-image: linear-gradient(rgb(236, 12, 236),#FF79DA); 
+                background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+                background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
                 -webkit-background-clip: text;
-                -moz-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color:transparent;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
                 }
-        }
+        
+}
+.fill-icon{
+        position: relative;
+}
+.icon{
+        position: relative;
 }
 .reservation{
     display: flex;
@@ -146,25 +138,31 @@ body{
         }
 } 
 .circle {
-        display: block;
-        background-color: #9356DC  ;
-        color: white;
-        border-radius: 100%;
-        height: 2em;
-        width: 2em;
-        margin: 0;
+        background: #9356dc;
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 100px;
         display: flex;
-        justify-content: space-around;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+       margin-right: 1em;
+        left: 0.29em;
+        @media screen and (max-width: 767px){
+               position: absolute; 
+        }
 }
 .menu-div{
         display: flex;
         justify-content: space-between;
     align-items: center;
     width: 100%;
+  
     
     @media screen and (max-width: 767px){
         width: 90%;
+         padding-left: 2em; 
+         margin-right: 20%;
 }
 
 }
@@ -267,6 +265,9 @@ footer{
         align-self: auto;
         transform: scaleX(0);
         animation: load 3s linear ;
+        display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .loader {
         
@@ -277,10 +278,9 @@ footer{
         border-radius: 50%;
         animation: spin 3s linear ;
         position: absolute;
-        top: 50%;
-        left: 45%;
         background-color:white;
         transform: scaleX(0);
+
 }
 @keyframes spin {
         0% { transform: rotate(0deg);}

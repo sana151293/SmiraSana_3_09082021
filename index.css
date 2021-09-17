@@ -75,7 +75,7 @@
   border: none;
   opacity: 0;
 }
-.btn-like .icon:active {
+.btn-like .icon:hover {
   transition: all 3s linear 0s;
   background: white;
   opacity: 1;
