@@ -70,6 +70,7 @@ body {
   padding-bottom: 5px;
   margin-left: 1.5em;
   width: 2.5em;
+  padding-top: 1em;
 }
 
 .tittle {
@@ -345,7 +346,7 @@ footer {
     flex-direction: column;
     padding-left: 1em;
     width: auto;
-    line-height: 1.5;
+    line-height: 2;
   }
 }
 
