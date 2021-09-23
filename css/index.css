@@ -53,7 +53,7 @@ body {
 .btn.btn-search {
   text-decoration: none;
   border-radius: 25px;
-  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 95%);
+  background-image: linear-gradient(to bottom right, #ff79da 5%, #9356dc 95%);
   padding: 1em;
   display: flex;
   flex-direction: row;
@@ -141,7 +141,7 @@ body {
   cursor: pointer;
 }
 .body-up-child:hover .icon-color {
-  color: #9356DC;
+  color: #9356dc;
 }
 
 .circle {
@@ -225,8 +225,7 @@ h2 {
 }
 
 .new-icon {
-  border-color: 2px solid green;
-  background: #99E2D0;
+  background: #99e2d0;
   position: absolute;
   margin: 1em;
   padding: 0.6em;
@@ -294,7 +293,7 @@ footer {
 .loader {
   width: 100px;
   height: 100px;
-  border: 20px solid #CCCCCC;
+  border: 20px solid #cccccc;
   border-top: 20px solid violet;
   border-radius: 50%;
   animation: spin 3s linear;

@@ -50,7 +50,6 @@ body {
   background: #f8f6f6;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   align-items: center;
   position: relative;
 }
@@ -66,7 +65,7 @@ body {
 }
 
 .subtittle {
-  border-bottom: 2px solid #99E2D0;
+  border-bottom: solid #99e2d0;
   padding-bottom: 5px;
   margin-left: 1.5em;
   width: 2.5em;
@@ -230,7 +229,7 @@ h2 {
 :hover > .hover2 {
   display: flex;
   height: 100%;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   width: 20%;
   transition-duration: 1s;
   transition-delay: 0s;
@@ -284,7 +283,7 @@ h2 {
   border-radius: 20px;
   width: 30%;
   border: none;
-  background-image: linear-gradient(to bottom right, #FF79DA 5%, #9356DC 95%);
+  background-image: linear-gradient(to bottom right, #ff79da 5%, #9356dc 95%);
   padding: 1em;
   box-shadow: 4px 4px 10px rgba(214, 208, 208, 0.959);
   display: flex;
