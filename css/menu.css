@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.icon-return {
+  color: black;
+  margin-left: 1em;
+}
+
 body {
   margin: 0;
 }
@@ -292,6 +297,8 @@ h2 {
   align-items: center;
   color: white;
   text-decoration: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .btn-order:hover {
   opacity: 0.7;
