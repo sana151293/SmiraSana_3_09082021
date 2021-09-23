@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-.body {
+body {
   width: 100%;
   font-family: "Roboto", Arial, serif;
 }
@@ -207,6 +207,16 @@ h2 {
   .name {
     width: 80%;
     padding-left: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .name {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .name {
+    width: 70%;
   }
 }
 

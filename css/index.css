@@ -140,10 +140,7 @@ body {
   background-color: #dcbeff;
   cursor: pointer;
 }
-.body-up-child .icon-color {
-  color: black;
-}
-:hover > .body-up-child .icon-color {
+.body-up-child:hover .icon-color {
   color: #9356DC;
 }
 
@@ -257,7 +254,7 @@ h2 {
 }
 @media screen and (max-width: 767px) {
   .flex-container-body-down > div {
-    width: 90%;
+    width: 91%;
   }
 }
 
