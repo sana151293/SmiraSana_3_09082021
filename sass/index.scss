@@ -127,14 +127,14 @@ body{
         &:hover{
             background-color: #dcbeff;
             cursor: pointer;
-        }
-        .icon-color{
-            color: black;
-            :hover>& {
-                color: #9356DC  ;
+            .icon-color{
+                  color: #9356DC;  
             }
         }
 } 
+
+                
+
 .circle {
         background: #9356dc;
         height: 1.5rem;
@@ -234,7 +234,7 @@ h2 { margin-left: 1em;
         
     
         @media screen and (max-width: 767px){
-            width: 90%;
+            width: 91%;
         }
 }
    
