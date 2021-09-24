@@ -6,6 +6,20 @@
     font-family: "Roboto";
     src: url("RobotoCondensed-Regular.ttf");
 }
+p{
+    margin: 0;
+    padding-bottom: 0.3em;
+}
+h3{
+    margin: 0;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em
+    
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 0.3em;
+}
 .header {
     background-color: white;
     display: flex;
@@ -60,7 +74,6 @@ body {
 }
 .subtittle {
     border-bottom: solid #99e2d0;
-    padding-bottom: 5px;
     margin-left: 1.5em;
     width: 2.5em;
     padding-top: 1em;
