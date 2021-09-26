@@ -17,14 +17,9 @@ h2 {
 }
 
 h3 {
-  font-weight: normal;
   margin: 0;
   padding-bottom: 0.3em;
   padding-top: 0.3em;
-}
-
-h5 {
-  margin: 0.2em;
 }
 
 a:link {
