@@ -17,6 +17,7 @@ h2 {
 }
 
 h3 {
+  font-weight: normal;
   margin: 0;
   padding-bottom: 0.3em;
   padding-top: 0.3em;
@@ -24,6 +25,11 @@ h3 {
 
 h5 {
   margin: 0.2em;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
 }
 
 .header {
