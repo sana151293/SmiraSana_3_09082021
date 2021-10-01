@@ -224,8 +224,12 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.flex-container-body-down > div {
+.flex-container-body-down > article {
   margin: 1em;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 @media screen and (max-width: 767px) {
   .flex-container-body-down {
@@ -240,11 +244,6 @@ h2 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   position: relative;
-}
-
-.body-down-child > div {
-  display: flex;
-  flex-direction: column;
 }
 
 .float-right {
@@ -273,7 +272,7 @@ h2 {
   padding: 0.5em;
 }
 
-.flex-container-body-down > div {
+.flex-container-body-down > article {
   width: 40%;
   margin: 1em;
   border-radius: 20px;
@@ -282,7 +281,7 @@ h2 {
   margin-bottom: 2em;
 }
 @media screen and (max-width: 767px) {
-  .flex-container-body-down > div {
+  .flex-container-body-down > article {
     width: 91%;
   }
 }
