@@ -165,13 +165,13 @@ h2 {
   scroll-behavior: smooth;
 }
 
-@keyframes fadethree {
+@keyframes fadeone {
   0% {
     margin-top: 3em;
     opacity: 0;
   }
   50% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -189,24 +189,16 @@ h2 {
     opacity: 1;
   }
 }
-@keyframes fadeone {
+@keyframes fadethree {
   0% {
     margin-top: 3em;
     opacity: 0;
   }
   50% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 .hover1 {
@@ -222,26 +214,18 @@ h2 {
 .hover1 > div {
   display: inline-flex;
 }
+.hover1 :hover .ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 70%;
+}
 
 .name {
   display: flex;
   flex-direction: column;
   padding-left: 1em;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .name {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .name {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 640px) {
-  .name {
-    width: 70%;
-  }
+  width: 70%;
 }
 
 .fa-check-circle {
@@ -267,13 +251,14 @@ h2 {
   animation: spin 4s linear 0s;
 }
 
-.ellipsis {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 80%;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 .price {
   margin-top: 1.5em;
   width: 10%;
@@ -301,6 +286,12 @@ h2 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   overflow: hidden;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .body-down-child {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
 @media screen and (max-width: 767px) {
   .body-down-child {

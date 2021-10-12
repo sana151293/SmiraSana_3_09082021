@@ -14,7 +14,8 @@ h2 {
     font-weight: normal;
     margin-bottom: 0.3em;
 }
-h3,H4 {
+h3,
+H4 {
     margin: 0;
     padding-bottom: 0.3em;
     padding-top: 0.3em;
@@ -111,7 +112,7 @@ h2 {
         flex-direction: column;
     }
 }
-.body-down > article{
+.body-down > article {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -134,13 +135,14 @@ h2 {
     animation: fadethree 2s linear;
     scroll-behavior: smooth;
 }
-@keyframes fadethree {
+
+@keyframes fadeone {
     0% {
         margin-top: 3em;
         opacity: 0;
     }
     50% {
-        opacity: 0;
+        opacity: 1;
     }
     100% {
         opacity: 1;
@@ -158,32 +160,19 @@ h2 {
         opacity: 1;
     }
 }
-@keyframes fadeone {
+@keyframes fadethree {
     0% {
         margin-top: 3em;
         opacity: 0;
     }
     50% {
-        opacity: 1;
+        opacity: 0;
     }
     100% {
         opacity: 1;
     }
 }
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
-.fa-check-circle {
-    color: white;
-    animation: spin 4s linear 1s;
-    animation-iteration-count: 1;
-}
 .hover1 {
     height: 100%;
     background-color: white;
@@ -196,45 +185,51 @@ h2 {
     > div {
         display: inline-flex;
     }
+    :hover {
+        .ellipsis {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 70%;
+        }
+    }
 }
 .name {
     display: flex;
     flex-direction: column;
-    width: 90%;
     padding-left: 1em;
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        width: 80%;
-        padding-left: 0;
-    }
-    @media screen and (min-width: 1024px) {
-        width: 80%;
-    }
-    @media screen and (max-width: 640px) {
-        width: 70%;
-    }
+    width: 70%;
+}
+.fa-check-circle {
+    color: white;
 }
 .hover2 {
     transition: width 2s linear;
-    width: 0%;
     display: none;
     justify-content: center;
     align-items: center;
+    width: 0;
     :hover > & {
         display: flex;
         height: 100%;
         background-color: #99e2d0;
-        width: 20%;
         transition-duration: 1s;
         transition-delay: 0s;
+        width: 30%;
+        .fa-check-circle {
+            animation: spin 4s linear 0s;
+        }
     }
 }
-.ellipsis {
-    width: 80%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
 .price {
     margin-top: 1.5em;
     width: 10%;
@@ -259,6 +254,10 @@ h2 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     overflow: hidden;
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
     @media screen and (max-width: 767px) {
         width: auto;
         height: 3em;
