@@ -33,12 +33,11 @@ a:link {
         padding-right: 1em;
 }
 body {
-        width: 100%;
+        max-width: 1920px;
         font-family: "Roboto", Arial, serif;
         margin: 0;
 }
 .ohmyfood {
-        width: 40%;
         padding: 1em;
 }
 .search-logo /* logo position suite*/ {
@@ -176,7 +175,6 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
 
         @media screen and (max-width: 767px) {
                 width: 90%;

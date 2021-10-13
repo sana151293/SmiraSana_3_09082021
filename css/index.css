@@ -39,13 +39,12 @@ a:link {
 }
 
 body {
-  width: 100%;
+  max-width: 1920px;
   font-family: "Roboto", Arial, serif;
   margin: 0;
 }
 
 .ohmyfood {
-  width: 40%;
   padding: 1em;
 }
 
@@ -199,7 +198,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .menu-div {
