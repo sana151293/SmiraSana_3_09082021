@@ -103,6 +103,7 @@ body {
   margin-left: 1.5em;
   width: 2.5em;
   padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 .tittle {
@@ -226,6 +227,7 @@ h2 {
   flex-direction: column;
   padding-left: 1em;
   width: 70%;
+  font-size: 0.8em;
 }
 
 .fa-check-circle {
@@ -245,7 +247,17 @@ h2 {
   background-color: #99e2d0;
   transition-duration: 1s;
   transition-delay: 0s;
-  width: 30%;
+  width: 20%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  :hover > .hover2 {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  :hover > .hover2 {
+    width: 20%;
+  }
 }
 :hover > .hover2 .fa-check-circle {
   animation: spin 4s linear 0s;
