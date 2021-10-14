@@ -26,7 +26,7 @@ h5 {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
 }
-a:link {
+a {
     color: white;
     text-decoration: none;
 }
@@ -46,8 +46,18 @@ a:link {
 }
 body {
     margin: 0;
-    max-width: 1920px;
     font-family: "Roboto", Arial, serif;
+    max-width: 1920px;
+    display: flex;
+flex-direction: column;
+min-height: 100vh;
+    @media screen and (min-width: 1920px) {
+            margin-right: 20em;
+            margin-left: 20em;
+            }
+}
+.site-content {
+flex: 1;
 }
 .ohmyfood {
     width: 40%;
@@ -272,8 +282,12 @@ h2 {
     }
     @media screen and (max-width: 767px) {
         width: auto;
-        height: 3em;
+        height: 4em;
     }
+    @media screen and (min-width: 1920px) {
+        height: 10em;
+    }
+    
 }
 .btn-order {
     cursor: pointer;
