@@ -32,6 +32,7 @@ h5 {
 a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .fas {
@@ -60,11 +61,7 @@ body {
 
 .ohmyfood {
   padding: 1em;
-}
-@media screen and (max-width: 640px) {
-  .ohmyfood {
-    width: 50%;
-  }
+  width: 215px;
 }
 
 .search-logo {

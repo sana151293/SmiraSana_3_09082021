@@ -29,11 +29,11 @@ h5 {
 a {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 .header {
     background-color: white;
     display: flex;
-    justify-content: center;
     > div {
         display: flex;
         justify-content: space-around;
@@ -60,8 +60,11 @@ min-height: 100vh;
 flex: 1;
 }
 .ohmyfood {
-    width: 40%;
+    width: 150px;
     padding: 1em;
+    @media screen and (max-width: 767px) {
+        margin-left: 4.5em;
+        }
 }
 .restaurant {
     height: 15em;
