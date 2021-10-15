@@ -216,9 +216,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .menu-div {
-    width: 90%;
     padding-left: 2em;
-    margin-right: 20%;
   }
 }
 
